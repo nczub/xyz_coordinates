@@ -8,11 +8,11 @@ First step for dataframe is to create sdf files. This is possible thanks to rdki
 https://www.rdkit.org/docs/GettingStartedInPython.html
 Usually, when you're using conda enviroment, rdkit demands to create new enviroment. 
 
-$conda create -c conda-forge -n my-rdkit-env rdkit
+conda create -c conda-forge -n my-rdkit-env rdkit
 
-$ conda activate my-rdkit-env
+conda activate my-rdkit-env
 
-$ conda install -c conda-forge rdkit
+conda install -c conda-forge rdkit
 
 
 File "test_database_smiles.csv" contains SMILES
@@ -22,7 +22,7 @@ SMILES (Simplified Molecular-Input Line-Entry System) is a string representation
 
 From SMILES you need to create sdf files. After activation of conda enviroment:
 
-$ conda activate my-rdkit-env
+conda activate my-rdkit-env
 
 run the script "generate_sdf_files.py"
 
