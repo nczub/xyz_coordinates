@@ -18,12 +18,14 @@ SMILES (ChatGPT explanation):
 SMILES (Simplified Molecular-Input Line-Entry System) is a string representation of a chemical structure used to uniquely identify a molecule. It consists of a sequence of characters, where each character represents a specific chemical element or type of bond. The atoms in a molecule are represented by their elemental symbols, and the bonds between them are represented by the characters -, =, #, :, or /. Additional characters can be used to specify certain characteristics of a molecule, such as aromaticity or chirality.
 
 From SMILES you need to create sdf files. After activation of conda enviroment:
+
 conda activate my-rdkit-env
 run the script "generate_sdf_files.py"
 
 # Step two:
 generate xyz files with use of obabel
 in console run:
+
 obabel *.sdf -O*.xyz
 It will change each sdf file into xyz, with specific name of sdf file.
 
