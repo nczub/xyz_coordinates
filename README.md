@@ -27,6 +27,7 @@ generate xyz files with use of obabel
 in console run:
 
 obabel *.sdf -O*.xyz
+
 It will change each sdf file into xyz, with specific name of sdf file.
 
 # Step three:
